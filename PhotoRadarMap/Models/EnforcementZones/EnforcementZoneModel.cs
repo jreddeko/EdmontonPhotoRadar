@@ -7,7 +7,7 @@ namespace PhotoRadarMap.Models.EnforcementZones
 {
     public class EnforcementZoneModel
     {
-        public int sid { get; set; }
+        public string sid { get; set; }
         public string id { get; set; }
         public int position { get; set; }
         public int created_at { get; set; }
